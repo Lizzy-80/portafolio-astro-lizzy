@@ -25,11 +25,12 @@
 }
 
 .hero .hero__img {
-	width: 100%;
-	max-width: 38rem;
-	border-radius: 50%;
-	height: auto;
+  width: 384px;
+  height: 384px;
+  border-radius: 0;
+  object-fit: cover;
 }
+
 
 .hero .hero__container {
 	display: grid;
@@ -68,8 +69,11 @@
 		padding: 12rem 0 5rem 0;
 	}
 	.hero .hero__img {
-		max-width: 28rem;
-	}
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 0;
+}
 	.hero .hero__container {
 		display: flex;
 		max-width: 100%;
